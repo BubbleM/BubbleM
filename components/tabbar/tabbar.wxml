@@ -1,0 +1,22 @@
+<!--components/tabbar/tabbar.wxml-->
+<view class='tabbar-wrap'>
+  <view class='tabbar-item' url="/pages/index/index">
+    <view class='iconfont icon-zhuye item-icon'></view>
+    <text class='item-txt'>首页</text>
+  </view>
+  <view class='tabbar-item' open-type='redirect' url="/pages/logs/logs">
+    <view class='iconfont icon-sousuo item-icon'></view>
+    <text class='item-txt'>发现</text>
+  </view>
+  <view class='tabbar-item' open-type='redirect' url="/pages/logs/logs">
+    <view class='iconfont icon-tianjia item-icon center-icon'></view>
+  </view>
+  <view class='tabbar-item' open-type='redirect' url="/pages/logs/logs">
+    <view class='iconfont icon-xinxi item-icon'></view>
+    <text class='item-txt'>信息</text>
+  </view>
+  <view class='tabbar-item' open-type='redirect' url="/pages/logs/logs">
+    <view class='iconfont icon-geren item-icon'></view>
+    <text class='item-txt'>我的</text>
+  </view>
+</view>
