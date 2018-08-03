@@ -1,5 +1,10 @@
 {
   "usingComponents": {
-    "tabbar": "./../../components/tabbar/tabbar"
+    "Tabbar": "./../../components/tabbar/tabbar",
+    "Home": "./../components/home/home",
+    "Search": "./../components/search/search",
+    "Publish": "./../components/publish/publish",
+    "Message": "./../components/message/message",
+    "MyInfo": "./../components/myInfo/myInfo"
   }
 }

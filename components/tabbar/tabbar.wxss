@@ -26,6 +26,13 @@
 }
 .center-icon{
   line-height: 100rpx;
-  color: #00B4E9;
   font-size: 60rpx;
+}
+.checked{
+  color: #00B4E9;
+  line-height: 100rpx;
+  font-size: 70rpx;
+}
+.checked .item-icon{
+  font-size: 70rpx;
 }

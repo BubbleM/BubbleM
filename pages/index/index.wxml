@@ -1,14 +1,9 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-    <tabbar></tabbar>
-  </view>
+  <Home wx:if="{{wrapIndex == 0}}"></Home>
+  <Search wx:if="{{wrapIndex == 1}}"></Search>
+  <Publish wx:if="{{wrapIndex == 2}}"></Publish>
+  <Message wx:if="{{wrapIndex == 3}}"></Message>
+  <MyInfo wx:if="{{wrapIndex == 4}}"></MyInfo>
+  <Tabbar checkIndex='{{wrapIndex}}' tabList='{{tabList}}' bindonCheckTap='onCheckTab'></Tabbar>
 </view>
