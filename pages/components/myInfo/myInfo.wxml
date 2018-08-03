@@ -1,2 +1,10 @@
 <!--pages/components/myInfo/myInfo.wxml-->
-<text>pages/components/myInfo/myInfo.wxml</text>
+<view class="container">
+  <view class="userinfo">
+    <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+    <open-data type="userNickName" class="userinfo-nickname"></open-data>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">motto</text>
+  </view>
+</view>
